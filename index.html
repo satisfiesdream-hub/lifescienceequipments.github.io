@@ -1,4 +1,323 @@
-<title>lifescienceequipments</title>
-<h1>
-    lifescienceequipments
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life Science Equipments – Authorised Dealer</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">🔬</span>
+        <div>
+          <h1>Life Science Equipments</h1>
+          <p>Authorised Dealer – Chemicals & Glassware</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#brands">Brands</a>
+        <a href="#categories">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-nav">Contact Us</a>
+      </nav>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#brands" onclick="toggleMenu()">Brands</a>
+      <a href="#categories" onclick="toggleMenu()">Products</a>
+      <a href="#about" onclick="toggleMenu()">About</a>
+      <a href="#contact" onclick="toggleMenu()">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">✔ Authorised Dealer</span>
+      <h2>Your Trusted Partner for<br/>Lab Chemicals & Glassware</h2>
+      <p>Supplying premium quality chemicals, glassware and lab equipment from India's most trusted brands – delivered to your doorstep.</p>
+      <div class="hero-btns">
+        <a href="#categories" class="btn-primary">Explore Products</a>
+        <a href="#contact" class="btn-outline">Get a Quote</a>
+      </div>
+    </div>
+    <div class="hero-image">🧪</div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container trust-inner">
+      <div>✅ 100% Genuine Products</div>
+      <div>🏷️ Competitive Pricing</div>
+      <div>🚚 Pan India Delivery</div>
+      <div>📞 Expert Support</div>
+    </div>
+  </div>
+
+  <!-- BRANDS -->
+  <section id="brands" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Brand Portfolio</h2>
+      <p class="section-sub">Authorised dealer for India's leading laboratory supply brands</p>
+      <div class="brands-grid">
+
+        <div class="brand-card">
+          <div class="brand-logo glassco">G</div>
+          <h3>Glassco</h3>
+          <p>Premium borosilicate laboratory glassware – beakers, flasks, burettes & more.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo borosil">B</div>
+          <h3>Borosil</h3>
+          <p>India's most trusted brand for scientific glassware and lab instruments.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo himedia">H</div>
+          <h3>HiMedia</h3>
+          <p>Microbiological culture media, reagents, stains and biochemicals.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo qualigence">Q</div>
+          <h3>Qualigence</h3>
+          <p>Analytical reagents and laboratory chemicals of the highest purity.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo sigma">S</div>
+          <h3>Sigma-Aldrich</h3>
+          <p>World-class research chemicals, biochemicals and life science reagents.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+        <div class="brand-card">
+          <div class="brand-logo other">+</div>
+          <h3>& Many More</h3>
+          <p>Merck, Thomas Baker, SRL, Qualigens, Nice Chemicals and other leading brands.</p>
+          <span class="auth-badge">Authorised Dealer</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT CATEGORIES -->
+  <section id="categories" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Product Categories</h2>
+      <p class="section-sub">Everything your laboratory needs, under one roof</p>
+      <div class="categories-grid">
+
+        <div class="cat-card">
+          <div class="cat-icon">🧫</div>
+          <h3>Laboratory Chemicals</h3>
+          <ul>
+            <li>AR / LR Grade Reagents</li>
+            <li>HPLC & GC Solvents</li>
+            <li>Acids & Bases</li>
+            <li>Indicators & Stains</li>
+          </ul>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-icon">⚗️</div>
+          <h3>Glassware</h3>
+          <ul>
+            <li>Beakers & Flasks</li>
+            <li>Burettes & Pipettes</li>
+            <li>Test Tubes & Funnels</li>
+            <li>Condensers & Columns</li>
+          </ul>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-icon">🦠</div>
+          <h3>Microbiology</h3>
+          <ul>
+            <li>Culture Media</li>
+            <li>Selective Media</li>
+            <li>Bacteriological Agar</li>
+            <li>Ready-to-use Plates</li>
+          </ul>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-icon">🔭</div>
+          <h3>Lab Instruments</h3>
+          <ul>
+            <li>pH Meters & Balances</li>
+            <li>Centrifuges</li>
+            <li>Spectrophotometers</li>
+            <li>Hot Plates & Stirrers</li>
+          </ul>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-icon">🧤</div>
+          <h3>Safety & Plasticware</h3>
+          <ul>
+            <li>Gloves & Masks</li>
+            <li>Lab Coats</li>
+            <li>Plastic Bottles & Containers</li>
+            <li>Disposable Tips</li>
+          </ul>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-icon">💊</div>
+          <h3>Biochemicals</h3>
+          <ul>
+            <li>Enzymes & Proteins</li>
+            <li>Amino Acids</li>
+            <li>Vitamins & Buffers</li>
+            <li>Molecular Biology Kits</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <p class="section-sub">Decades of trust in the laboratory supply industry</p>
+      <div class="why-grid">
+        <div class="why-card">
+          <span>🏅</span>
+          <h3>Authorised Dealership</h3>
+          <p>We hold official authorisation from all major brands, ensuring 100% genuine products with valid certificates.</p>
+        </div>
+        <div class="why-card">
+          <span>🔬</span>
+          <h3>Wide Product Range</h3>
+          <p>Over 10,000+ SKUs across chemicals, glassware, instruments and consumables — one-stop procurement.</p>
+        </div>
+        <div class="why-card">
+          <span>⚡</span>
+          <h3>Fast Delivery</h3>
+          <p>Efficient logistics network ensuring timely delivery to research institutes, hospitals and industries pan India.</p>
+        </div>
+        <div class="why-card">
+          <span>💰</span>
+          <h3>Best Prices</h3>
+          <p>Competitive pricing with volume discounts for institutions. Request a custom quote for bulk orders.</p>
+        </div>
+        <div class="why-card">
+          <span>📋</span>
+          <h3>Proper Documentation</h3>
+          <p>COA, MSDS, GST invoices and import documents provided for all products.</p>
+        </div>
+        <div class="why-card">
+          <span>🤝</span>
+          <h3>Dedicated Support</h3>
+          <p>Expert technical support team to help you choose the right grade and specification for your application.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-sub">Send us your requirements or request a quote</p>
+      <div class="contact-wrap">
+
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name *" required/>
+            <input type="text" placeholder="Institute / Organisation *" required/>
+          </div>
+          <div class="form-row">
+            <input type="email" placeholder="Email Address *" required/>
+            <input type="tel" placeholder="Phone Number *" required/>
+          </div>
+          <select required>
+            <option value="">-- Product Category --</option>
+            <option>Laboratory Chemicals</option>
+            <option>Glassware</option>
+            <option>Microbiology Products</option>
+            <option>Lab Instruments</option>
+            <option>Safety & Plasticware</option>
+            <option>Biochemicals</option>
+            <option>Others</option>
+          </select>
+          <textarea rows="4" placeholder="Describe your requirement or paste your product list here..."></textarea>
+          <button type="submit" class="btn-primary">Send Enquiry →</button>
+          <p class="form-note" id="formMsg"></p>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-block">
+            <span>📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Life Science Equipments<br/>Chhatrapati Sambhajinagar, Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <span>📞</span>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <p><a href="tel:+919999999999">+91 8087113248</a></p>
+            </div>
+          </div>
+          <div class="info-block">
+            <span>✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:sales@lifescienceequipments.com">sales@lifescienceequipments.com</a></p>
+            </div>
+          </div>
+          <div class="info-block">
+            <span>🕐</span>
+            <div>
+              <strong>Working Hours</strong>
+              <p>Mon – Sat: 9:00 AM – 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <h3>🔬 Life Science Equipments</h3>
+        <p>Authorised dealer of premium laboratory chemicals, glassware and equipment across India.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#brands">Brands</a>
+        <a href="#categories">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Brands We Carry</h4>
+        <p>Glassco · Borosil · HiMedia<br/>Qualigence · Sigma-Aldrich<br/>Merck · SRL · Thomas Baker</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Life Science Equipments. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
